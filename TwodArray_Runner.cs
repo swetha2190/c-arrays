@@ -10,6 +10,11 @@ namespace TWO_D_ARRAYS
     {
         static void Main(string[] args)
         {
+
+            TwoDclass obj = new TwoDclass();
+            obj.DisplayArray();
+            obj.addition();
+            Console.ReadLine();
         }
     }
 }
